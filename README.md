@@ -81,7 +81,7 @@ project-root/
 - **Uses:**
   - Snowflake connection (`snowflake_conn`)
   - Variables:
-    - `stock_symbols = "AAPL,MSFT"`
+    - `stock_symbols = "NVDA,ORCL"`
     - `lookback_days = 180`
 
 ### 2️⃣ **Airflow – dbt ELT Pipeline**
@@ -175,7 +175,7 @@ Navigate to: `http://localhost:8081`
 ### **3. Add Airflow Variables**
 In Airflow UI → Admin → Variables:
 ```
-stock_symbols = AAPL,MSFT
+stock_symbols = NVDA,ORCL
 lookback_days = 180
 ```
 
@@ -239,13 +239,13 @@ LIMIT 100;
 
 -- Check fact table with metrics
 SELECT * FROM USER_DB_PLATYPUS.ANALYTICS.FCT_STOCK_METRICS
-WHERE symbol = 'AAPL'
+WHERE symbol = 'NVDA'
 ORDER BY date DESC
 LIMIT 100;
 
 -- Check snapshot (Type 2 SCD)
 SELECT * FROM USER_DB_PLATYPUS.ANALYTICS.STOCK_PRICES_SNAPSHOT
-WHERE symbol = 'MSFT'
+WHERE symbol = 'ORCL'
 ORDER BY dbt_valid_from DESC
 LIMIT 50;
 ```
