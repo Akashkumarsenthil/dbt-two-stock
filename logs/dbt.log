@@ -1,0 +1,31 @@
+[0m10:18:12.385686 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11015f190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113451250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1134670d0>]}
+
+
+============================== 10:18:12.389874 | 2e4c428c-8807-4af8-987c-5cc729fb3950 ==============================
+[0m10:18:12.389874 [info ] [MainThread]: Running with dbt=1.11.0-b4
+[0m10:18:12.390279 [debug] [MainThread]: running dbt with arguments {'log_cache_events': 'False', 'log_path': 'logs', 'indirect_selection': 'eager', 'target_path': 'None', 'introspect': 'True', 'debug': 'False', 'no_print': 'None', 'write_json': 'True', 'partial_parse': 'True', 'profiles_dir': '/Users/akash/.dbt', 'fail_fast': 'False', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'empty': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'invocation_command': 'dbt init hw7_project', 'printer_width': '80', 'quiet': 'False'}
+[0m10:18:12.397766 [info ] [MainThread]: Creating dbt configuration folder at /Users/akash/.dbt
+[0m10:18:12.398770 [debug] [MainThread]: Starter project path: /opt/anaconda3/envs/dbt226/lib/python3.11/site-packages/dbt/include/starter_project
+[0m10:18:12.402235 [info ] [MainThread]: 
+Your new dbt project "hw7_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:18:12.402511 [info ] [MainThread]: Setting up your profile.
+[0m10:21:44.409162 [info ] [MainThread]: Profile hw7_project written to /Users/akash/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:21:44.783460 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 212.44781, "process_in_blocks": "0", "process_kernel_time": 0.156312, "process_mem_max_rss": "130162688", "process_out_blocks": "0", "process_user_time": 0.758098}
+[0m10:21:44.785165 [debug] [MainThread]: Command `dbt init` succeeded at 10:21:44.784880 after 212.45 seconds
+[0m10:21:44.785691 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10dfca210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11348bf50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1133e7e50>]}
+[0m10:21:44.786086 [debug] [MainThread]: Flushing usage events
+[0m10:21:45.187938 [debug] [MainThread]: An error was encountered while trying to flush usage events

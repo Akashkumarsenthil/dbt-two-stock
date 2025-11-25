@@ -1,0 +1,26 @@
+[2025-10-07T20:46:01.174+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-10-07T20:46:01.179+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: lab_forecast_dag.train manual__2025-10-07T20:28:39.584956+00:00 [queued]>
+[2025-10-07T20:46:01.181+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: lab_forecast_dag.train manual__2025-10-07T20:28:39.584956+00:00 [queued]>
+[2025-10-07T20:46:01.181+0000] {taskinstance.py:2865} INFO - Starting attempt 2 of 3
+[2025-10-07T20:46:01.184+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): train> on 2025-10-07 20:28:39.584956+00:00
+[2025-10-07T20:46:01.188+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=26397) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-07T20:46:01.188+0000] {standard_task_runner.py:72} INFO - Started process 26400 to run task
+[2025-10-07T20:46:01.188+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'lab_forecast_dag', 'train', 'manual__2025-10-07T20:28:39.584956+00:00', '--job-id', '113', '--raw', '--subdir', 'DAGS_FOLDER/train_predict_v2.py', '--cfg-path', '/tmp/tmpajeyiii9']
+[2025-10-07T20:46:01.189+0000] {standard_task_runner.py:105} INFO - Job 113: Subtask train
+[2025-10-07T20:46:01.210+0000] {task_command.py:467} INFO - Running <TaskInstance: lab_forecast_dag.train manual__2025-10-07T20:28:39.584956+00:00 [running]> on host ccfe9eddc1e8
+[2025-10-07T20:46:01.245+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='lab_forecast_dag' AIRFLOW_CTX_TASK_ID='train' AIRFLOW_CTX_EXECUTION_DATE='2025-10-07T20:28:39.584956+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-07T20:28:39.584956+00:00'
+[2025-10-07T20:46:01.246+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-10-07T20:46:01.252+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-10-07T20:46:01.253+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.10.14-linuxkit-aarch64-with-glibc2.36
+[2025-10-07T20:46:01.253+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-10-07T20:46:01.253+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-07T20:46:01.798+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-07T20:46:01.887+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-07T20:46:02.203+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-07T20:47:33.120+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-07T20:47:34.850+0000] {cursor.py:1156} INFO - Number of results in first chunk: 14
+[2025-10-07T20:47:34.852+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-10-07T20:47:34.892+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-10-07T20:47:34.892+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=lab_forecast_dag, task_id=train, run_id=manual__2025-10-07T20:28:39.584956+00:00, execution_date=20251007T202839, start_date=20251007T204601, end_date=20251007T204734
+[2025-10-07T20:47:34.927+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-10-07T20:47:34.932+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

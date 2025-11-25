@@ -1,0 +1,155 @@
+[2025-11-25T09:15:31.344+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-25T09:15:31.387+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_stock_analytics.dbt_test manual__2025-11-25T09:15:20.555414+00:00 [queued]>
+[2025-11-25T09:15:31.396+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_stock_analytics.dbt_test manual__2025-11-25T09:15:20.555414+00:00 [queued]>
+[2025-11-25T09:15:31.398+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-11-25T09:15:31.413+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): dbt_test> on 2025-11-25 09:15:20.555414+00:00
+[2025-11-25T09:15:31.420+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dbt_stock_analytics', 'dbt_test', 'manual__2025-11-25T09:15:20.555414+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/dbt_stock_analytics_lab2.py', '--cfg-path', '/tmp/tmpy2hhxcg6']
+[2025-11-25T09:15:31.422+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1312) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-25T09:15:31.422+0000] {standard_task_runner.py:105} INFO - Job 5: Subtask dbt_test
+[2025-11-25T09:15:31.423+0000] {standard_task_runner.py:72} INFO - Started process 1314 to run task
+[2025-11-25T09:15:31.534+0000] {task_command.py:467} INFO - Running <TaskInstance: dbt_stock_analytics.dbt_test manual__2025-11-25T09:15:20.555414+00:00 [running]> on host 42ac9fe1c2d2
+[2025-11-25T09:15:31.694+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dbt_stock_analytics' AIRFLOW_CTX_TASK_ID='dbt_test' AIRFLOW_CTX_EXECUTION_DATE='2025-11-25T09:15:20.555414+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-25T09:15:20.555414+00:00'
+[2025-11-25T09:15:31.694+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-11-25T09:15:31.708+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-11-25T09:15:31.709+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/dbt/stock_analytics && dbt test']
+[2025-11-25T09:15:31.714+0000] {subprocess.py:86} INFO - Output:
+[2025-11-25T09:15:33.229+0000] {subprocess.py:93} INFO - [0m09:15:33  Running with dbt=1.8.8
+[2025-11-25T09:15:34.163+0000] {subprocess.py:93} INFO - [0m09:15:34  Registered adapter: snowflake=1.8.4
+[2025-11-25T09:15:34.417+0000] {subprocess.py:93} INFO - [0m09:15:34  Found 2 models, 1 snapshot, 8 data tests, 1 source, 455 macros
+[2025-11-25T09:15:34.419+0000] {subprocess.py:93} INFO - [0m09:15:34
+[2025-11-25T09:15:35.891+0000] {subprocess.py:93} INFO - [0m09:15:35  Concurrency: 4 threads (target='dev')
+[2025-11-25T09:15:35.892+0000] {subprocess.py:93} INFO - [0m09:15:35
+[2025-11-25T09:15:35.908+0000] {subprocess.py:93} INFO - [0m09:15:35  1 of 8 START test not_null_fct_stock_metrics_date .............................. [RUN]
+[2025-11-25T09:15:35.909+0000] {subprocess.py:93} INFO - [0m09:15:35  2 of 8 START test not_null_fct_stock_metrics_symbol ............................ [RUN]
+[2025-11-25T09:15:35.910+0000] {subprocess.py:93} INFO - [0m09:15:35  3 of 8 START test not_null_stg_stock_data_date ................................. [RUN]
+[2025-11-25T09:15:35.911+0000] {subprocess.py:93} INFO - [0m09:15:35  4 of 8 START test not_null_stg_stock_data_symbol ............................... [RUN]
+[2025-11-25T09:15:36.555+0000] {subprocess.py:93} INFO - [0m09:15:36  1 of 8 ERROR not_null_fct_stock_metrics_date ................................... [[31mERROR[0m in 0.64s]
+[2025-11-25T09:15:36.557+0000] {subprocess.py:93} INFO - [0m09:15:36  5 of 8 START test source_not_null_raw_two_stock_v2_date ........................ [RUN]
+[2025-11-25T09:15:36.727+0000] {subprocess.py:93} INFO - [0m09:15:36  4 of 8 ERROR not_null_stg_stock_data_symbol .................................... [[31mERROR[0m in 0.81s]
+[2025-11-25T09:15:36.728+0000] {subprocess.py:93} INFO - [0m09:15:36  6 of 8 START test source_not_null_raw_two_stock_v2_symbol ...................... [RUN]
+[2025-11-25T09:15:36.787+0000] {subprocess.py:93} INFO - [0m09:15:36  2 of 8 ERROR not_null_fct_stock_metrics_symbol ................................. [[31mERROR[0m in 0.88s]
+[2025-11-25T09:15:36.788+0000] {subprocess.py:93} INFO - [0m09:15:36  7 of 8 START test unique_symbol_date_fct_stock_metrics_ ........................ [RUN]
+[2025-11-25T09:15:36.847+0000] {subprocess.py:93} INFO - [0m09:15:36  3 of 8 ERROR not_null_stg_stock_data_date ...................................... [[31mERROR[0m in 0.93s]
+[2025-11-25T09:15:36.848+0000] {subprocess.py:93} INFO - [0m09:15:36  8 of 8 START test unique_symbol_date_stg_stock_data_ ........................... [RUN]
+[2025-11-25T09:15:37.153+0000] {subprocess.py:93} INFO - [0m09:15:37  5 of 8 ERROR source_not_null_raw_two_stock_v2_date ............................. [[31mERROR[0m in 0.60s]
+[2025-11-25T09:15:37.525+0000] {subprocess.py:93} INFO - [0m09:15:37  7 of 8 ERROR unique_symbol_date_fct_stock_metrics_ ............................. [[31mERROR[0m in 0.74s]
+[2025-11-25T09:15:37.526+0000] {subprocess.py:93} INFO - [0m09:15:37  8 of 8 ERROR unique_symbol_date_stg_stock_data_ ................................ [[31mERROR[0m in 0.68s]
+[2025-11-25T09:15:37.579+0000] {subprocess.py:93} INFO - [0m09:15:37  6 of 8 ERROR source_not_null_raw_two_stock_v2_symbol ........................... [[31mERROR[0m in 0.85s]
+[2025-11-25T09:15:37.583+0000] {subprocess.py:93} INFO - [0m09:15:37
+[2025-11-25T09:15:37.584+0000] {subprocess.py:93} INFO - [0m09:15:37  Finished running 8 data tests in 0 hours 0 minutes and 3.16 seconds (3.16s).
+[2025-11-25T09:15:37.611+0000] {subprocess.py:93} INFO - [0m09:15:37
+[2025-11-25T09:15:37.611+0000] {subprocess.py:93} INFO - [0m09:15:37  [31mCompleted with 8 errors and 0 warnings:[0m
+[2025-11-25T09:15:37.612+0000] {subprocess.py:93} INFO - [0m09:15:37
+[2025-11-25T09:15:37.612+0000] {subprocess.py:93} INFO - [0m09:15:37    Database Error in test not_null_fct_stock_metrics_date (models/schema.yml)
+[2025-11-25T09:15:37.612+0000] {subprocess.py:93} INFO -   000606 (57P03): No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+[2025-11-25T09:15:37.613+0000] {subprocess.py:93} INFO - 
+[2025-11-25T09:15:37.613+0000] {subprocess.py:93} INFO -   compiled code at target/run/stock_analytics/models/schema.yml/not_null_fct_stock_metrics_date.sql
+[2025-11-25T09:15:37.613+0000] {subprocess.py:93} INFO - [0m09:15:37
+[2025-11-25T09:15:37.613+0000] {subprocess.py:93} INFO - [0m09:15:37    Database Error in test not_null_stg_stock_data_symbol (models/schema.yml)
+[2025-11-25T09:15:37.613+0000] {subprocess.py:93} INFO -   000606 (57P03): No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+[2025-11-25T09:15:37.613+0000] {subprocess.py:93} INFO - 
+[2025-11-25T09:15:37.613+0000] {subprocess.py:93} INFO -   compiled code at target/run/stock_analytics/models/schema.yml/not_null_stg_stock_data_symbol.sql
+[2025-11-25T09:15:37.614+0000] {subprocess.py:93} INFO - [0m09:15:37
+[2025-11-25T09:15:37.614+0000] {subprocess.py:93} INFO - [0m09:15:37    Database Error in test not_null_fct_stock_metrics_symbol (models/schema.yml)
+[2025-11-25T09:15:37.614+0000] {subprocess.py:93} INFO -   000606 (57P03): No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+[2025-11-25T09:15:37.614+0000] {subprocess.py:93} INFO - 
+[2025-11-25T09:15:37.614+0000] {subprocess.py:93} INFO -   compiled code at target/run/stock_analytics/models/schema.yml/not_null_fct_stock_metrics_symbol.sql
+[2025-11-25T09:15:37.614+0000] {subprocess.py:93} INFO - [0m09:15:37
+[2025-11-25T09:15:37.615+0000] {subprocess.py:93} INFO - [0m09:15:37    Database Error in test not_null_stg_stock_data_date (models/schema.yml)
+[2025-11-25T09:15:37.615+0000] {subprocess.py:93} INFO -   000606 (57P03): No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+[2025-11-25T09:15:37.615+0000] {subprocess.py:93} INFO - 
+[2025-11-25T09:15:37.615+0000] {subprocess.py:93} INFO -   compiled code at target/run/stock_analytics/models/schema.yml/not_null_stg_stock_data_date.sql
+[2025-11-25T09:15:37.615+0000] {subprocess.py:93} INFO - [0m09:15:37
+[2025-11-25T09:15:37.615+0000] {subprocess.py:93} INFO - [0m09:15:37    Database Error in test source_not_null_raw_two_stock_v2_date (models/schema.yml)
+[2025-11-25T09:15:37.615+0000] {subprocess.py:93} INFO -   000606 (57P03): No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+[2025-11-25T09:15:37.616+0000] {subprocess.py:93} INFO - 
+[2025-11-25T09:15:37.616+0000] {subprocess.py:93} INFO -   compiled code at target/run/stock_analytics/models/schema.yml/source_not_null_raw_two_stock_v2_date.sql
+[2025-11-25T09:15:37.616+0000] {subprocess.py:93} INFO - [0m09:15:37
+[2025-11-25T09:15:37.616+0000] {subprocess.py:93} INFO - [0m09:15:37    Database Error in test unique_symbol_date_fct_stock_metrics_ (models/schema.yml)
+[2025-11-25T09:15:37.616+0000] {subprocess.py:93} INFO -   000606 (57P03): No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+[2025-11-25T09:15:37.617+0000] {subprocess.py:93} INFO - 
+[2025-11-25T09:15:37.617+0000] {subprocess.py:93} INFO -   compiled code at target/run/stock_analytics/models/schema.yml/unique_symbol_date_fct_stock_metrics_.sql
+[2025-11-25T09:15:37.617+0000] {subprocess.py:93} INFO - [0m09:15:37
+[2025-11-25T09:15:37.617+0000] {subprocess.py:93} INFO - [0m09:15:37    Database Error in test unique_symbol_date_stg_stock_data_ (models/schema.yml)
+[2025-11-25T09:15:37.617+0000] {subprocess.py:93} INFO -   000606 (57P03): No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+[2025-11-25T09:15:37.617+0000] {subprocess.py:93} INFO - 
+[2025-11-25T09:15:37.618+0000] {subprocess.py:93} INFO -   compiled code at target/run/stock_analytics/models/schema.yml/unique_symbol_date_stg_stock_data_.sql
+[2025-11-25T09:15:37.618+0000] {subprocess.py:93} INFO - [0m09:15:37
+[2025-11-25T09:15:37.618+0000] {subprocess.py:93} INFO - [0m09:15:37    Database Error in test source_not_null_raw_two_stock_v2_symbol (models/schema.yml)
+[2025-11-25T09:15:37.618+0000] {subprocess.py:93} INFO -   000606 (57P03): No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+[2025-11-25T09:15:37.618+0000] {subprocess.py:93} INFO - 
+[2025-11-25T09:15:37.618+0000] {subprocess.py:93} INFO -   compiled code at target/run/stock_analytics/models/schema.yml/source_not_null_raw_two_stock_v2_symbol.sql
+[2025-11-25T09:15:37.618+0000] {subprocess.py:93} INFO - [0m09:15:37
+[2025-11-25T09:15:37.619+0000] {subprocess.py:93} INFO - [0m09:15:37  Done. PASS=0 WARN=0 ERROR=8 SKIP=0 TOTAL=8
+[2025-11-25T09:15:38.206+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2025-11-25T09:15:38.244+0000] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 249, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-11-25T09:15:38.249+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=dbt_stock_analytics, task_id=dbt_test, run_id=manual__2025-11-25T09:15:20.555414+00:00, execution_date=20251125T091520, start_date=20251125T091531, end_date=20251125T091538
+[2025-11-25T09:15:38.272+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-11-25T09:15:38.276+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 5 for task dbt_test (Bash command failed. The command returned a non-zero exit code 1.; 1314)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 249, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-11-25T09:15:38.309+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-11-25T09:15:38.350+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-25T09:15:38.352+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

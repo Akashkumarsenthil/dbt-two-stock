@@ -1,0 +1,637 @@
+[2025-11-02T00:05:31.769+0000] {processor.py:186} INFO - Started process (PID=53756) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T00:05:31.769+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T00:05:31.770+0000] {logging_mixin.py:190} INFO - [2025-11-02T00:05:31.769+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T00:05:31.994+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T00:05:32.001+0000] {logging_mixin.py:190} INFO - [2025-11-02T00:05:32.001+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T00:05:32.009+0000] {logging_mixin.py:190} INFO - [2025-11-02T00:05:32.009+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-01 01:30:00+00:00, run_after=2025-11-02 01:30:00+00:00
+[2025-11-02T00:05:32.014+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.249 seconds
+[2025-11-02T00:22:32.056+0000] {processor.py:186} INFO - Started process (PID=53787) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T00:22:32.056+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T00:22:32.057+0000] {logging_mixin.py:190} INFO - [2025-11-02T00:22:32.057+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T00:22:32.247+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T00:22:32.253+0000] {logging_mixin.py:190} INFO - [2025-11-02T00:22:32.253+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T00:22:32.260+0000] {logging_mixin.py:190} INFO - [2025-11-02T00:22:32.260+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-01 01:30:00+00:00, run_after=2025-11-02 01:30:00+00:00
+[2025-11-02T00:22:32.265+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.212 seconds
+[2025-11-02T00:28:54.870+0000] {processor.py:186} INFO - Started process (PID=53818) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T00:28:54.870+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T00:28:54.871+0000] {logging_mixin.py:190} INFO - [2025-11-02T00:28:54.870+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T00:28:55.060+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T00:28:55.066+0000] {logging_mixin.py:190} INFO - [2025-11-02T00:28:55.066+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T00:28:55.073+0000] {logging_mixin.py:190} INFO - [2025-11-02T00:28:55.073+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-01 01:30:00+00:00, run_after=2025-11-02 01:30:00+00:00
+[2025-11-02T00:28:55.078+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.211 seconds
+[2025-11-02T00:41:28.654+0000] {processor.py:186} INFO - Started process (PID=53850) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T00:41:28.655+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T00:41:28.655+0000] {logging_mixin.py:190} INFO - [2025-11-02T00:41:28.655+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T00:41:28.844+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T00:41:28.850+0000] {logging_mixin.py:190} INFO - [2025-11-02T00:41:28.850+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T00:41:28.856+0000] {logging_mixin.py:190} INFO - [2025-11-02T00:41:28.856+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-01 01:30:00+00:00, run_after=2025-11-02 01:30:00+00:00
+[2025-11-02T00:41:28.861+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.209 seconds
+[2025-11-02T00:47:31.418+0000] {processor.py:186} INFO - Started process (PID=53881) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T00:47:31.419+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T00:47:31.419+0000] {logging_mixin.py:190} INFO - [2025-11-02T00:47:31.419+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T00:47:31.609+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T00:47:31.616+0000] {logging_mixin.py:190} INFO - [2025-11-02T00:47:31.616+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T00:47:31.622+0000] {logging_mixin.py:190} INFO - [2025-11-02T00:47:31.622+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-01 01:30:00+00:00, run_after=2025-11-02 01:30:00+00:00
+[2025-11-02T00:47:31.626+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.211 seconds
+[2025-11-02T00:53:02.595+0000] {processor.py:186} INFO - Started process (PID=53912) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T00:53:02.595+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T00:53:02.596+0000] {logging_mixin.py:190} INFO - [2025-11-02T00:53:02.596+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T00:53:02.781+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T00:53:02.787+0000] {logging_mixin.py:190} INFO - [2025-11-02T00:53:02.787+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T00:53:02.793+0000] {logging_mixin.py:190} INFO - [2025-11-02T00:53:02.793+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-01 01:30:00+00:00, run_after=2025-11-02 01:30:00+00:00
+[2025-11-02T00:53:02.798+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.205 seconds
+[2025-11-02T01:02:08.694+0000] {processor.py:186} INFO - Started process (PID=53943) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:02:08.694+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T01:02:08.694+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:02:08.694+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:02:08.883+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:02:08.889+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:02:08.889+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T01:02:08.896+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:02:08.896+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-01 01:30:00+00:00, run_after=2025-11-02 01:30:00+00:00
+[2025-11-02T01:02:08.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.209 seconds
+[2025-11-02T01:13:03.675+0000] {processor.py:186} INFO - Started process (PID=53974) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:13:03.676+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T01:13:03.676+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:13:03.676+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:13:03.865+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:13:03.871+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:13:03.871+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T01:13:03.878+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:13:03.878+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-01 01:30:00+00:00, run_after=2025-11-02 01:30:00+00:00
+[2025-11-02T01:13:03.883+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.210 seconds
+[2025-11-02T01:21:37.635+0000] {processor.py:186} INFO - Started process (PID=54005) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:21:37.635+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T01:21:37.636+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:21:37.636+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:21:37.821+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:21:37.827+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:21:37.827+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T01:21:37.834+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:21:37.834+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-01 01:30:00+00:00, run_after=2025-11-02 01:30:00+00:00
+[2025-11-02T01:21:37.838+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.206 seconds
+[2025-11-02T01:26:52.015+0000] {processor.py:186} INFO - Started process (PID=54036) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:26:52.015+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T01:26:52.015+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:26:52.015+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:26:52.203+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:26:52.210+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:26:52.209+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T01:26:52.216+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:26:52.216+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-01 01:30:00+00:00, run_after=2025-11-02 01:30:00+00:00
+[2025-11-02T01:26:52.221+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.209 seconds
+[2025-11-02T01:37:04.379+0000] {processor.py:186} INFO - Started process (PID=54068) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:37:04.380+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T01:37:04.381+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:37:04.381+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:37:04.627+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:37:04.634+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:37:04.634+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T01:37:04.642+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:37:04.642+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T01:37:04.647+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.271 seconds
+[2025-11-02T01:45:54.589+0000] {processor.py:186} INFO - Started process (PID=54126) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:45:54.589+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T01:45:54.590+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:45:54.590+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:45:54.799+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:45:54.806+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:45:54.806+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T01:45:54.813+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:45:54.813+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T01:45:54.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.231 seconds
+[2025-11-02T01:52:57.192+0000] {processor.py:186} INFO - Started process (PID=54160) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:52:57.193+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T01:52:57.193+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:52:57.193+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:52:57.400+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:52:57.406+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:52:57.406+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T01:52:57.413+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:52:57.413+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T01:52:57.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.228 seconds
+[2025-11-02T01:59:55.174+0000] {processor.py:186} INFO - Started process (PID=54203) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:59:55.174+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T01:59:55.175+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:59:55.175+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:59:55.366+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T01:59:55.372+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:59:55.372+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T01:59:55.379+0000] {logging_mixin.py:190} INFO - [2025-11-02T01:59:55.379+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T01:59:55.383+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.212 seconds
+[2025-11-02T02:05:36.628+0000] {processor.py:186} INFO - Started process (PID=54234) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T02:05:36.629+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T02:05:36.631+0000] {logging_mixin.py:190} INFO - [2025-11-02T02:05:36.631+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T02:05:36.818+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T02:05:36.824+0000] {logging_mixin.py:190} INFO - [2025-11-02T02:05:36.824+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T02:05:36.831+0000] {logging_mixin.py:190} INFO - [2025-11-02T02:05:36.831+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T02:05:36.835+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.209 seconds
+[2025-11-02T02:12:55.086+0000] {processor.py:186} INFO - Started process (PID=54265) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T02:12:55.087+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T02:12:55.087+0000] {logging_mixin.py:190} INFO - [2025-11-02T02:12:55.087+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T02:12:55.273+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T02:12:55.279+0000] {logging_mixin.py:190} INFO - [2025-11-02T02:12:55.279+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T02:12:55.286+0000] {logging_mixin.py:190} INFO - [2025-11-02T02:12:55.286+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T02:12:55.290+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.206 seconds
+[2025-11-02T02:20:55.391+0000] {processor.py:186} INFO - Started process (PID=54296) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T02:20:55.391+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T02:20:55.392+0000] {logging_mixin.py:190} INFO - [2025-11-02T02:20:55.391+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T02:20:55.595+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T02:20:55.601+0000] {logging_mixin.py:190} INFO - [2025-11-02T02:20:55.601+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T02:20:55.607+0000] {logging_mixin.py:190} INFO - [2025-11-02T02:20:55.607+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T02:20:55.612+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.224 seconds
+[2025-11-02T02:32:41.300+0000] {processor.py:186} INFO - Started process (PID=54327) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T02:32:41.300+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T02:32:41.300+0000] {logging_mixin.py:190} INFO - [2025-11-02T02:32:41.300+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T02:32:41.487+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T02:32:41.494+0000] {logging_mixin.py:190} INFO - [2025-11-02T02:32:41.493+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T02:32:41.500+0000] {logging_mixin.py:190} INFO - [2025-11-02T02:32:41.500+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T02:32:41.505+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.207 seconds
+[2025-11-02T02:37:28.329+0000] {processor.py:186} INFO - Started process (PID=54358) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T02:37:28.330+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T02:37:28.330+0000] {logging_mixin.py:190} INFO - [2025-11-02T02:37:28.330+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T02:37:28.555+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T02:37:28.561+0000] {logging_mixin.py:190} INFO - [2025-11-02T02:37:28.561+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T02:37:28.568+0000] {logging_mixin.py:190} INFO - [2025-11-02T02:37:28.568+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T02:37:28.573+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.247 seconds
+[2025-11-02T02:41:13.761+0000] {processor.py:186} INFO - Started process (PID=54389) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T02:41:13.761+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T02:41:13.761+0000] {logging_mixin.py:190} INFO - [2025-11-02T02:41:13.761+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T02:41:13.948+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T02:41:13.954+0000] {logging_mixin.py:190} INFO - [2025-11-02T02:41:13.954+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T02:41:13.961+0000] {logging_mixin.py:190} INFO - [2025-11-02T02:41:13.961+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T02:41:13.965+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.207 seconds
+[2025-11-02T02:54:19.159+0000] {processor.py:186} INFO - Started process (PID=54424) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T02:54:19.159+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T02:54:19.160+0000] {logging_mixin.py:190} INFO - [2025-11-02T02:54:19.160+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T02:54:19.377+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T02:54:19.385+0000] {logging_mixin.py:190} INFO - [2025-11-02T02:54:19.385+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T02:54:19.392+0000] {logging_mixin.py:190} INFO - [2025-11-02T02:54:19.392+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T02:54:19.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.240 seconds
+[2025-11-02T03:19:06.672+0000] {processor.py:186} INFO - Started process (PID=54461) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T03:19:06.673+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T03:19:06.673+0000] {logging_mixin.py:190} INFO - [2025-11-02T03:19:06.673+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T03:19:06.892+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T03:19:06.898+0000] {logging_mixin.py:190} INFO - [2025-11-02T03:19:06.898+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T03:19:06.905+0000] {logging_mixin.py:190} INFO - [2025-11-02T03:19:06.905+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T03:19:06.909+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.243 seconds
+[2025-11-02T03:20:21.153+0000] {processor.py:186} INFO - Started process (PID=54492) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T03:20:21.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T03:20:21.154+0000] {logging_mixin.py:190} INFO - [2025-11-02T03:20:21.154+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T03:20:21.362+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T03:20:21.369+0000] {logging_mixin.py:190} INFO - [2025-11-02T03:20:21.369+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T03:20:21.375+0000] {logging_mixin.py:190} INFO - [2025-11-02T03:20:21.375+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T03:20:21.380+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.230 seconds
+[2025-11-02T03:21:21.996+0000] {processor.py:186} INFO - Started process (PID=54523) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T03:21:21.996+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T03:21:21.997+0000] {logging_mixin.py:190} INFO - [2025-11-02T03:21:21.996+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T03:21:22.203+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T03:21:22.210+0000] {logging_mixin.py:190} INFO - [2025-11-02T03:21:22.210+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T03:21:22.217+0000] {logging_mixin.py:190} INFO - [2025-11-02T03:21:22.217+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T03:21:22.223+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.230 seconds
+[2025-11-02T03:24:50.328+0000] {processor.py:186} INFO - Started process (PID=54554) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T03:24:50.329+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T03:24:50.330+0000] {logging_mixin.py:190} INFO - [2025-11-02T03:24:50.329+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T03:24:50.520+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T03:24:50.526+0000] {logging_mixin.py:190} INFO - [2025-11-02T03:24:50.526+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T03:24:50.533+0000] {logging_mixin.py:190} INFO - [2025-11-02T03:24:50.533+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T03:24:50.537+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.213 seconds
+[2025-11-02T03:45:22.026+0000] {processor.py:186} INFO - Started process (PID=54585) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T03:45:22.026+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T03:45:22.027+0000] {logging_mixin.py:190} INFO - [2025-11-02T03:45:22.026+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T03:45:22.217+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T03:45:22.223+0000] {logging_mixin.py:190} INFO - [2025-11-02T03:45:22.223+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T03:45:22.230+0000] {logging_mixin.py:190} INFO - [2025-11-02T03:45:22.230+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T03:45:22.235+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.211 seconds
+[2025-11-02T05:02:35.461+0000] {processor.py:186} INFO - Started process (PID=54616) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T05:02:35.461+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T05:02:35.462+0000] {logging_mixin.py:190} INFO - [2025-11-02T05:02:35.461+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T05:02:35.710+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T05:02:35.717+0000] {logging_mixin.py:190} INFO - [2025-11-02T05:02:35.716+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T05:02:35.723+0000] {logging_mixin.py:190} INFO - [2025-11-02T05:02:35.723+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T05:02:35.728+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.270 seconds
+[2025-11-02T05:09:52.785+0000] {processor.py:186} INFO - Started process (PID=54647) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T05:09:52.786+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T05:09:52.786+0000] {logging_mixin.py:190} INFO - [2025-11-02T05:09:52.786+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T05:09:52.984+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T05:09:52.990+0000] {logging_mixin.py:190} INFO - [2025-11-02T05:09:52.990+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T05:09:52.996+0000] {logging_mixin.py:190} INFO - [2025-11-02T05:09:52.996+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T05:09:53.001+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.219 seconds
+[2025-11-02T05:21:24.584+0000] {processor.py:186} INFO - Started process (PID=54678) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T05:21:24.584+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T05:21:24.585+0000] {logging_mixin.py:190} INFO - [2025-11-02T05:21:24.584+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T05:21:24.771+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T05:21:24.777+0000] {logging_mixin.py:190} INFO - [2025-11-02T05:21:24.777+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T05:21:24.784+0000] {logging_mixin.py:190} INFO - [2025-11-02T05:21:24.784+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T05:21:24.789+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.207 seconds
+[2025-11-02T05:48:08.796+0000] {processor.py:186} INFO - Started process (PID=54709) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T05:48:08.797+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T05:48:08.797+0000] {logging_mixin.py:190} INFO - [2025-11-02T05:48:08.797+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T05:48:09.006+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T05:48:09.014+0000] {logging_mixin.py:190} INFO - [2025-11-02T05:48:09.014+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T05:48:09.021+0000] {logging_mixin.py:190} INFO - [2025-11-02T05:48:09.021+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T05:48:09.026+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.232 seconds
+[2025-11-02T06:53:36.338+0000] {processor.py:186} INFO - Started process (PID=54740) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T06:53:36.339+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T06:53:36.339+0000] {logging_mixin.py:190} INFO - [2025-11-02T06:53:36.339+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T06:53:36.541+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T06:53:36.547+0000] {logging_mixin.py:190} INFO - [2025-11-02T06:53:36.547+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T06:53:36.554+0000] {logging_mixin.py:190} INFO - [2025-11-02T06:53:36.554+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T06:53:36.559+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.223 seconds
+[2025-11-02T07:17:09.569+0000] {processor.py:186} INFO - Started process (PID=54771) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T07:17:09.570+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T07:17:09.570+0000] {logging_mixin.py:190} INFO - [2025-11-02T07:17:09.570+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T07:17:09.800+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T07:17:09.807+0000] {logging_mixin.py:190} INFO - [2025-11-02T07:17:09.807+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T07:17:09.814+0000] {logging_mixin.py:190} INFO - [2025-11-02T07:17:09.814+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T07:17:09.819+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.253 seconds
+[2025-11-02T07:23:47.560+0000] {processor.py:186} INFO - Started process (PID=54802) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T07:23:47.560+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T07:23:47.561+0000] {logging_mixin.py:190} INFO - [2025-11-02T07:23:47.560+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T07:23:47.760+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T07:23:47.767+0000] {logging_mixin.py:190} INFO - [2025-11-02T07:23:47.766+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T07:23:47.773+0000] {logging_mixin.py:190} INFO - [2025-11-02T07:23:47.773+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T07:23:47.778+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.221 seconds
+[2025-11-02T08:07:05.465+0000] {processor.py:186} INFO - Started process (PID=54833) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T08:07:05.465+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T08:07:05.466+0000] {logging_mixin.py:190} INFO - [2025-11-02T08:07:05.466+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T08:07:05.661+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T08:07:05.668+0000] {logging_mixin.py:190} INFO - [2025-11-02T08:07:05.668+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T08:07:05.674+0000] {logging_mixin.py:190} INFO - [2025-11-02T08:07:05.674+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T08:07:05.678+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.216 seconds
+[2025-11-02T08:29:22.216+0000] {processor.py:186} INFO - Started process (PID=54864) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T08:29:22.216+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T08:29:22.216+0000] {logging_mixin.py:190} INFO - [2025-11-02T08:29:22.216+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T08:29:22.398+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T08:29:22.404+0000] {logging_mixin.py:190} INFO - [2025-11-02T08:29:22.404+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T08:29:22.410+0000] {logging_mixin.py:190} INFO - [2025-11-02T08:29:22.410+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T08:29:22.415+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.201 seconds
+[2025-11-02T09:28:45.417+0000] {processor.py:186} INFO - Started process (PID=54895) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T09:28:45.417+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T09:28:45.418+0000] {logging_mixin.py:190} INFO - [2025-11-02T09:28:45.417+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T09:28:45.633+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T09:28:45.639+0000] {logging_mixin.py:190} INFO - [2025-11-02T09:28:45.639+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T09:28:45.645+0000] {logging_mixin.py:190} INFO - [2025-11-02T09:28:45.645+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T09:28:45.650+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.236 seconds
+[2025-11-02T10:06:53.676+0000] {processor.py:186} INFO - Started process (PID=54926) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T10:06:53.677+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T10:06:53.677+0000] {logging_mixin.py:190} INFO - [2025-11-02T10:06:53.677+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T10:06:53.864+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T10:06:53.870+0000] {logging_mixin.py:190} INFO - [2025-11-02T10:06:53.869+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T10:06:53.876+0000] {logging_mixin.py:190} INFO - [2025-11-02T10:06:53.876+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T10:06:53.880+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.206 seconds
+[2025-11-02T10:41:00.583+0000] {processor.py:186} INFO - Started process (PID=54957) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T10:41:00.583+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T10:41:00.583+0000] {logging_mixin.py:190} INFO - [2025-11-02T10:41:00.583+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T10:41:00.766+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T10:41:00.772+0000] {logging_mixin.py:190} INFO - [2025-11-02T10:41:00.772+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T10:41:00.778+0000] {logging_mixin.py:190} INFO - [2025-11-02T10:41:00.778+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T10:41:00.783+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.203 seconds
+[2025-11-02T12:12:30.405+0000] {processor.py:186} INFO - Started process (PID=54988) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T12:12:30.405+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T12:12:30.406+0000] {logging_mixin.py:190} INFO - [2025-11-02T12:12:30.406+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T12:12:30.599+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T12:12:30.606+0000] {logging_mixin.py:190} INFO - [2025-11-02T12:12:30.606+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T12:12:30.612+0000] {logging_mixin.py:190} INFO - [2025-11-02T12:12:30.612+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T12:12:30.617+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.215 seconds
+[2025-11-02T13:13:04.182+0000] {processor.py:186} INFO - Started process (PID=55019) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T13:13:04.183+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T13:13:04.183+0000] {logging_mixin.py:190} INFO - [2025-11-02T13:13:04.183+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T13:13:04.384+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T13:13:04.391+0000] {logging_mixin.py:190} INFO - [2025-11-02T13:13:04.391+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T13:13:04.398+0000] {logging_mixin.py:190} INFO - [2025-11-02T13:13:04.398+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T13:13:04.402+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.223 seconds
+[2025-11-02T14:15:55.038+0000] {processor.py:186} INFO - Started process (PID=55050) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T14:15:55.039+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T14:15:55.039+0000] {logging_mixin.py:190} INFO - [2025-11-02T14:15:55.039+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T14:15:55.227+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T14:15:55.233+0000] {logging_mixin.py:190} INFO - [2025-11-02T14:15:55.233+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T14:15:55.240+0000] {logging_mixin.py:190} INFO - [2025-11-02T14:15:55.240+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T14:15:55.244+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.208 seconds
+[2025-11-02T15:06:37.649+0000] {processor.py:186} INFO - Started process (PID=55081) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T15:06:37.650+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T15:06:37.650+0000] {logging_mixin.py:190} INFO - [2025-11-02T15:06:37.650+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T15:06:37.840+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T15:06:37.846+0000] {logging_mixin.py:190} INFO - [2025-11-02T15:06:37.846+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T15:06:37.853+0000] {logging_mixin.py:190} INFO - [2025-11-02T15:06:37.853+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T15:06:37.858+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.211 seconds
+[2025-11-02T15:30:07.360+0000] {processor.py:186} INFO - Started process (PID=55112) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T15:30:07.361+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T15:30:07.361+0000] {logging_mixin.py:190} INFO - [2025-11-02T15:30:07.361+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T15:30:07.545+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T15:30:07.551+0000] {logging_mixin.py:190} INFO - [2025-11-02T15:30:07.551+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T15:30:07.558+0000] {logging_mixin.py:190} INFO - [2025-11-02T15:30:07.558+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T15:30:07.562+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.204 seconds
+[2025-11-02T15:39:47.654+0000] {processor.py:186} INFO - Started process (PID=55143) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T15:39:47.654+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T15:39:47.655+0000] {logging_mixin.py:190} INFO - [2025-11-02T15:39:47.654+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T15:39:47.836+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T15:39:47.842+0000] {logging_mixin.py:190} INFO - [2025-11-02T15:39:47.842+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T15:39:47.848+0000] {logging_mixin.py:190} INFO - [2025-11-02T15:39:47.848+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T15:39:47.853+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.201 seconds
+[2025-11-02T16:18:50.983+0000] {processor.py:186} INFO - Started process (PID=55174) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T16:18:50.983+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T16:18:50.984+0000] {logging_mixin.py:190} INFO - [2025-11-02T16:18:50.984+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T16:18:51.169+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T16:18:51.175+0000] {logging_mixin.py:190} INFO - [2025-11-02T16:18:51.175+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T16:18:51.181+0000] {logging_mixin.py:190} INFO - [2025-11-02T16:18:51.181+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T16:18:51.186+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.205 seconds
+[2025-11-02T16:38:23.673+0000] {processor.py:186} INFO - Started process (PID=55205) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T16:38:23.673+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T16:38:23.674+0000] {logging_mixin.py:190} INFO - [2025-11-02T16:38:23.673+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T16:38:23.857+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T16:38:23.863+0000] {logging_mixin.py:190} INFO - [2025-11-02T16:38:23.863+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T16:38:23.869+0000] {logging_mixin.py:190} INFO - [2025-11-02T16:38:23.869+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T16:38:23.874+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.204 seconds
+[2025-11-02T16:50:49.176+0000] {processor.py:186} INFO - Started process (PID=55236) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T16:50:49.177+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T16:50:49.177+0000] {logging_mixin.py:190} INFO - [2025-11-02T16:50:49.177+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T16:50:49.393+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T16:50:49.401+0000] {logging_mixin.py:190} INFO - [2025-11-02T16:50:49.400+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T16:50:49.410+0000] {logging_mixin.py:190} INFO - [2025-11-02T16:50:49.410+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T16:50:49.415+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.241 seconds
+[2025-11-02T16:57:52.857+0000] {processor.py:186} INFO - Started process (PID=55267) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T16:57:52.857+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T16:57:52.858+0000] {logging_mixin.py:190} INFO - [2025-11-02T16:57:52.858+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T16:57:53.040+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T16:57:53.047+0000] {logging_mixin.py:190} INFO - [2025-11-02T16:57:53.047+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T16:57:53.053+0000] {logging_mixin.py:190} INFO - [2025-11-02T16:57:53.053+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T16:57:53.057+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.203 seconds
+[2025-11-02T17:10:18.354+0000] {processor.py:186} INFO - Started process (PID=55298) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T17:10:18.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T17:10:18.356+0000] {logging_mixin.py:190} INFO - [2025-11-02T17:10:18.356+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T17:10:18.570+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T17:10:18.577+0000] {logging_mixin.py:190} INFO - [2025-11-02T17:10:18.576+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T17:10:18.583+0000] {logging_mixin.py:190} INFO - [2025-11-02T17:10:18.583+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T17:10:18.587+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.244 seconds
+[2025-11-02T17:16:28.748+0000] {processor.py:186} INFO - Started process (PID=55329) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T17:16:28.749+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T17:16:28.749+0000] {logging_mixin.py:190} INFO - [2025-11-02T17:16:28.749+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T17:16:28.941+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T17:16:28.948+0000] {logging_mixin.py:190} INFO - [2025-11-02T17:16:28.947+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T17:16:28.954+0000] {logging_mixin.py:190} INFO - [2025-11-02T17:16:28.954+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T17:16:28.959+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.213 seconds
+[2025-11-02T17:27:10.826+0000] {processor.py:186} INFO - Started process (PID=55360) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T17:27:10.826+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T17:27:10.827+0000] {logging_mixin.py:190} INFO - [2025-11-02T17:27:10.826+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T17:27:11.028+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T17:27:11.035+0000] {logging_mixin.py:190} INFO - [2025-11-02T17:27:11.034+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T17:27:11.044+0000] {logging_mixin.py:190} INFO - [2025-11-02T17:27:11.044+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T17:27:11.049+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.225 seconds
+[2025-11-02T17:35:43.672+0000] {processor.py:186} INFO - Started process (PID=55391) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T17:35:43.673+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T17:35:43.673+0000] {logging_mixin.py:190} INFO - [2025-11-02T17:35:43.673+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T17:35:43.880+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T17:35:43.888+0000] {logging_mixin.py:190} INFO - [2025-11-02T17:35:43.888+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T17:35:43.896+0000] {logging_mixin.py:190} INFO - [2025-11-02T17:35:43.896+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T17:35:43.903+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.233 seconds
+[2025-11-02T17:47:05.631+0000] {processor.py:186} INFO - Started process (PID=55422) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T17:47:05.631+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T17:47:05.632+0000] {logging_mixin.py:190} INFO - [2025-11-02T17:47:05.631+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T17:47:05.818+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T17:47:05.824+0000] {logging_mixin.py:190} INFO - [2025-11-02T17:47:05.824+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T17:47:05.830+0000] {logging_mixin.py:190} INFO - [2025-11-02T17:47:05.830+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T17:47:05.835+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.207 seconds
+[2025-11-02T18:00:18.474+0000] {processor.py:186} INFO - Started process (PID=55453) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T18:00:18.474+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T18:00:18.474+0000] {logging_mixin.py:190} INFO - [2025-11-02T18:00:18.474+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T18:00:18.657+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T18:00:18.663+0000] {logging_mixin.py:190} INFO - [2025-11-02T18:00:18.663+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T18:00:18.669+0000] {logging_mixin.py:190} INFO - [2025-11-02T18:00:18.669+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T18:00:18.674+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.203 seconds
+[2025-11-02T18:07:13.294+0000] {processor.py:186} INFO - Started process (PID=55484) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T18:07:13.294+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T18:07:13.294+0000] {logging_mixin.py:190} INFO - [2025-11-02T18:07:13.294+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T18:07:13.483+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T18:07:13.490+0000] {logging_mixin.py:190} INFO - [2025-11-02T18:07:13.489+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T18:07:13.497+0000] {logging_mixin.py:190} INFO - [2025-11-02T18:07:13.496+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T18:07:13.501+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.210 seconds
+[2025-11-02T18:22:32.706+0000] {processor.py:186} INFO - Started process (PID=55515) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T18:22:32.707+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T18:22:32.707+0000] {logging_mixin.py:190} INFO - [2025-11-02T18:22:32.707+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T18:22:32.904+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T18:22:32.911+0000] {logging_mixin.py:190} INFO - [2025-11-02T18:22:32.911+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T18:22:32.917+0000] {logging_mixin.py:190} INFO - [2025-11-02T18:22:32.917+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T18:22:32.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.217 seconds
+[2025-11-02T18:38:53.771+0000] {processor.py:186} INFO - Started process (PID=55546) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T18:38:53.771+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T18:38:53.771+0000] {logging_mixin.py:190} INFO - [2025-11-02T18:38:53.771+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T18:38:53.957+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T18:38:53.963+0000] {logging_mixin.py:190} INFO - [2025-11-02T18:38:53.963+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T18:38:53.969+0000] {logging_mixin.py:190} INFO - [2025-11-02T18:38:53.969+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T18:38:53.973+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.205 seconds
+[2025-11-02T18:44:31.033+0000] {processor.py:186} INFO - Started process (PID=55577) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T18:44:31.034+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T18:44:31.034+0000] {logging_mixin.py:190} INFO - [2025-11-02T18:44:31.034+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T18:44:31.221+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T18:44:31.228+0000] {logging_mixin.py:190} INFO - [2025-11-02T18:44:31.227+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T18:44:31.233+0000] {logging_mixin.py:190} INFO - [2025-11-02T18:44:31.233+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T18:44:31.239+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.208 seconds
+[2025-11-02T18:59:16.526+0000] {processor.py:186} INFO - Started process (PID=55608) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T18:59:16.527+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T18:59:16.527+0000] {logging_mixin.py:190} INFO - [2025-11-02T18:59:16.527+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T18:59:16.715+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T18:59:16.721+0000] {logging_mixin.py:190} INFO - [2025-11-02T18:59:16.721+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T18:59:16.728+0000] {logging_mixin.py:190} INFO - [2025-11-02T18:59:16.728+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T18:59:16.732+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.208 seconds
+[2025-11-02T19:11:02.334+0000] {processor.py:186} INFO - Started process (PID=55639) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:11:02.335+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T19:11:02.335+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:11:02.335+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:11:02.518+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:11:02.525+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:11:02.525+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T19:11:02.531+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:11:02.531+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T19:11:02.535+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.203 seconds
+[2025-11-02T19:14:55.498+0000] {processor.py:186} INFO - Started process (PID=55670) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:14:55.499+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T19:14:55.499+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:14:55.499+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:14:55.683+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:14:55.689+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:14:55.689+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T19:14:55.695+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:14:55.695+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T19:14:55.700+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.204 seconds
+[2025-11-02T19:26:03.319+0000] {processor.py:186} INFO - Started process (PID=55701) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:26:03.319+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T19:26:03.319+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:26:03.319+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:26:03.516+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:26:03.523+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:26:03.522+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T19:26:03.531+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:26:03.531+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T19:26:03.536+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.220 seconds
+[2025-11-02T19:32:34.231+0000] {processor.py:186} INFO - Started process (PID=55732) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:32:34.231+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T19:32:34.232+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:32:34.231+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:32:34.430+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:32:34.438+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:32:34.437+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T19:32:34.444+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:32:34.444+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T19:32:34.449+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.220 seconds
+[2025-11-02T19:34:48.879+0000] {processor.py:186} INFO - Started process (PID=55763) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:34:48.879+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T19:34:48.880+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:34:48.880+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:34:49.089+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:34:49.096+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:34:49.096+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T19:34:49.103+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:34:49.103+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T19:34:49.107+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.231 seconds
+[2025-11-02T19:39:26.057+0000] {processor.py:186} INFO - Started process (PID=55792) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:39:26.058+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T19:39:26.059+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:39:26.058+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:39:26.270+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:39:26.277+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:39:26.276+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T19:39:26.284+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:39:26.284+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T19:39:26.288+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.236 seconds
+[2025-11-02T19:52:56.115+0000] {processor.py:186} INFO - Started process (PID=55818) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:52:56.115+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T19:52:56.116+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:52:56.116+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:52:56.321+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:52:56.328+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:52:56.327+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T19:52:56.334+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:52:56.334+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T19:52:56.339+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.226 seconds
+[2025-11-02T19:59:44.941+0000] {processor.py:186} INFO - Started process (PID=55849) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:59:44.942+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T19:59:44.942+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:59:44.942+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:59:45.131+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T19:59:45.137+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:59:45.137+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T19:59:45.143+0000] {logging_mixin.py:190} INFO - [2025-11-02T19:59:45.143+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T19:59:45.147+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.208 seconds
+[2025-11-02T20:22:20.973+0000] {processor.py:186} INFO - Started process (PID=55880) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T20:22:20.973+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T20:22:20.974+0000] {logging_mixin.py:190} INFO - [2025-11-02T20:22:20.974+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T20:22:21.160+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T20:22:21.167+0000] {logging_mixin.py:190} INFO - [2025-11-02T20:22:21.166+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T20:22:21.173+0000] {logging_mixin.py:190} INFO - [2025-11-02T20:22:21.173+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T20:22:21.177+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.206 seconds
+[2025-11-02T20:29:18.464+0000] {processor.py:186} INFO - Started process (PID=55911) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T20:29:18.465+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T20:29:18.465+0000] {logging_mixin.py:190} INFO - [2025-11-02T20:29:18.465+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T20:29:18.651+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T20:29:18.657+0000] {logging_mixin.py:190} INFO - [2025-11-02T20:29:18.657+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T20:29:18.664+0000] {logging_mixin.py:190} INFO - [2025-11-02T20:29:18.664+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T20:29:18.669+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.207 seconds
+[2025-11-02T20:38:46.913+0000] {processor.py:186} INFO - Started process (PID=55942) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T20:38:46.913+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T20:38:46.914+0000] {logging_mixin.py:190} INFO - [2025-11-02T20:38:46.913+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T20:38:47.107+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T20:38:47.114+0000] {logging_mixin.py:190} INFO - [2025-11-02T20:38:47.113+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T20:38:47.120+0000] {logging_mixin.py:190} INFO - [2025-11-02T20:38:47.120+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T20:38:47.125+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.215 seconds
+[2025-11-02T20:44:41.409+0000] {processor.py:186} INFO - Started process (PID=55973) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T20:44:41.409+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T20:44:41.409+0000] {logging_mixin.py:190} INFO - [2025-11-02T20:44:41.409+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T20:44:41.590+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T20:44:41.597+0000] {logging_mixin.py:190} INFO - [2025-11-02T20:44:41.597+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T20:44:41.603+0000] {logging_mixin.py:190} INFO - [2025-11-02T20:44:41.603+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T20:44:41.611+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.204 seconds
+[2025-11-02T20:49:12.611+0000] {processor.py:186} INFO - Started process (PID=56004) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T20:49:12.612+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T20:49:12.612+0000] {logging_mixin.py:190} INFO - [2025-11-02T20:49:12.612+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T20:49:12.801+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T20:49:12.808+0000] {logging_mixin.py:190} INFO - [2025-11-02T20:49:12.808+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T20:49:12.815+0000] {logging_mixin.py:190} INFO - [2025-11-02T20:49:12.815+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T20:49:12.819+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.210 seconds
+[2025-11-02T20:57:40.483+0000] {processor.py:186} INFO - Started process (PID=56030) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T20:57:40.483+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T20:57:40.484+0000] {logging_mixin.py:190} INFO - [2025-11-02T20:57:40.484+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T20:57:40.690+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T20:57:40.696+0000] {logging_mixin.py:190} INFO - [2025-11-02T20:57:40.696+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T20:57:40.703+0000] {logging_mixin.py:190} INFO - [2025-11-02T20:57:40.703+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T20:57:40.710+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.230 seconds
+[2025-11-02T21:02:19.980+0000] {processor.py:186} INFO - Started process (PID=56061) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T21:02:19.980+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T21:02:19.980+0000] {logging_mixin.py:190} INFO - [2025-11-02T21:02:19.980+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T21:02:20.168+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T21:02:20.174+0000] {logging_mixin.py:190} INFO - [2025-11-02T21:02:20.173+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T21:02:20.180+0000] {logging_mixin.py:190} INFO - [2025-11-02T21:02:20.180+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T21:02:20.184+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.207 seconds
+[2025-11-02T21:07:50.649+0000] {processor.py:186} INFO - Started process (PID=56092) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T21:07:50.650+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T21:07:50.650+0000] {logging_mixin.py:190} INFO - [2025-11-02T21:07:50.650+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T21:07:50.836+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T21:07:50.843+0000] {logging_mixin.py:190} INFO - [2025-11-02T21:07:50.843+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T21:07:50.850+0000] {logging_mixin.py:190} INFO - [2025-11-02T21:07:50.850+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T21:07:50.854+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.207 seconds
+[2025-11-02T21:13:31.542+0000] {processor.py:186} INFO - Started process (PID=56123) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T21:13:31.543+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T21:13:31.543+0000] {logging_mixin.py:190} INFO - [2025-11-02T21:13:31.543+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T21:13:31.742+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T21:13:31.749+0000] {logging_mixin.py:190} INFO - [2025-11-02T21:13:31.749+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T21:13:31.756+0000] {logging_mixin.py:190} INFO - [2025-11-02T21:13:31.756+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T21:13:31.760+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.221 seconds
+[2025-11-02T21:24:08.394+0000] {processor.py:186} INFO - Started process (PID=56154) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T21:24:08.395+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T21:24:08.395+0000] {logging_mixin.py:190} INFO - [2025-11-02T21:24:08.395+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T21:24:08.604+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T21:24:08.610+0000] {logging_mixin.py:190} INFO - [2025-11-02T21:24:08.610+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T21:24:08.617+0000] {logging_mixin.py:190} INFO - [2025-11-02T21:24:08.617+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T21:24:08.622+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.230 seconds
+[2025-11-02T21:37:48.524+0000] {processor.py:186} INFO - Started process (PID=56185) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T21:37:48.524+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T21:37:48.525+0000] {logging_mixin.py:190} INFO - [2025-11-02T21:37:48.525+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T21:37:48.722+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T21:37:48.728+0000] {logging_mixin.py:190} INFO - [2025-11-02T21:37:48.728+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T21:37:48.734+0000] {logging_mixin.py:190} INFO - [2025-11-02T21:37:48.734+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T21:37:48.739+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.217 seconds
+[2025-11-02T21:43:31.254+0000] {processor.py:186} INFO - Started process (PID=56216) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T21:43:31.254+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T21:43:31.255+0000] {logging_mixin.py:190} INFO - [2025-11-02T21:43:31.255+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T21:43:31.451+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T21:43:31.457+0000] {logging_mixin.py:190} INFO - [2025-11-02T21:43:31.457+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T21:43:31.463+0000] {logging_mixin.py:190} INFO - [2025-11-02T21:43:31.463+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T21:43:31.468+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.216 seconds
+[2025-11-02T21:59:24.113+0000] {processor.py:186} INFO - Started process (PID=56247) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T21:59:24.113+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T21:59:24.114+0000] {logging_mixin.py:190} INFO - [2025-11-02T21:59:24.114+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T21:59:24.301+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T21:59:24.307+0000] {logging_mixin.py:190} INFO - [2025-11-02T21:59:24.307+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T21:59:24.313+0000] {logging_mixin.py:190} INFO - [2025-11-02T21:59:24.313+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T21:59:24.318+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.207 seconds
+[2025-11-02T22:14:12.174+0000] {processor.py:186} INFO - Started process (PID=56278) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T22:14:12.174+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T22:14:12.175+0000] {logging_mixin.py:190} INFO - [2025-11-02T22:14:12.175+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T22:14:12.364+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T22:14:12.371+0000] {logging_mixin.py:190} INFO - [2025-11-02T22:14:12.371+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T22:14:12.377+0000] {logging_mixin.py:190} INFO - [2025-11-02T22:14:12.377+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T22:14:12.382+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.210 seconds
+[2025-11-02T22:25:27.287+0000] {processor.py:186} INFO - Started process (PID=56309) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T22:25:27.287+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T22:25:27.287+0000] {logging_mixin.py:190} INFO - [2025-11-02T22:25:27.287+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T22:25:27.484+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T22:25:27.490+0000] {logging_mixin.py:190} INFO - [2025-11-02T22:25:27.490+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T22:25:27.496+0000] {logging_mixin.py:190} INFO - [2025-11-02T22:25:27.496+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T22:25:27.501+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.217 seconds
+[2025-11-02T22:33:42.086+0000] {processor.py:186} INFO - Started process (PID=56340) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T22:33:42.086+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T22:33:42.087+0000] {logging_mixin.py:190} INFO - [2025-11-02T22:33:42.087+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T22:33:42.276+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T22:33:42.282+0000] {logging_mixin.py:190} INFO - [2025-11-02T22:33:42.282+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T22:33:42.289+0000] {logging_mixin.py:190} INFO - [2025-11-02T22:33:42.289+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T22:33:42.293+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.210 seconds
+[2025-11-02T22:44:26.017+0000] {processor.py:186} INFO - Started process (PID=56371) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T22:44:26.018+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T22:44:26.018+0000] {logging_mixin.py:190} INFO - [2025-11-02T22:44:26.018+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T22:44:26.201+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T22:44:26.207+0000] {logging_mixin.py:190} INFO - [2025-11-02T22:44:26.207+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T22:44:26.214+0000] {logging_mixin.py:190} INFO - [2025-11-02T22:44:26.213+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T22:44:26.218+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.203 seconds
+[2025-11-02T22:50:33.760+0000] {processor.py:186} INFO - Started process (PID=56402) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T22:50:33.760+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T22:50:33.761+0000] {logging_mixin.py:190} INFO - [2025-11-02T22:50:33.760+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T22:50:33.944+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T22:50:33.953+0000] {logging_mixin.py:190} INFO - [2025-11-02T22:50:33.953+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T22:50:33.960+0000] {logging_mixin.py:190} INFO - [2025-11-02T22:50:33.960+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T22:50:33.964+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.207 seconds
+[2025-11-02T23:10:22.291+0000] {processor.py:186} INFO - Started process (PID=56433) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T23:10:22.291+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T23:10:22.292+0000] {logging_mixin.py:190} INFO - [2025-11-02T23:10:22.291+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T23:10:22.475+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T23:10:22.481+0000] {logging_mixin.py:190} INFO - [2025-11-02T23:10:22.481+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T23:10:22.487+0000] {logging_mixin.py:190} INFO - [2025-11-02T23:10:22.487+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T23:10:22.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.203 seconds
+[2025-11-02T23:23:00.480+0000] {processor.py:186} INFO - Started process (PID=56464) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T23:23:00.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T23:23:00.481+0000] {logging_mixin.py:190} INFO - [2025-11-02T23:23:00.481+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T23:23:00.665+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T23:23:00.671+0000] {logging_mixin.py:190} INFO - [2025-11-02T23:23:00.670+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T23:23:00.677+0000] {logging_mixin.py:190} INFO - [2025-11-02T23:23:00.677+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T23:23:00.682+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.204 seconds
+[2025-11-02T23:30:42.965+0000] {processor.py:186} INFO - Started process (PID=56495) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T23:30:42.966+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T23:30:42.966+0000] {logging_mixin.py:190} INFO - [2025-11-02T23:30:42.966+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T23:30:43.175+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T23:30:43.182+0000] {logging_mixin.py:190} INFO - [2025-11-02T23:30:43.181+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T23:30:43.188+0000] {logging_mixin.py:190} INFO - [2025-11-02T23:30:43.188+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T23:30:43.192+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.230 seconds
+[2025-11-02T23:43:10.293+0000] {processor.py:186} INFO - Started process (PID=56526) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T23:43:10.293+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T23:43:10.293+0000] {logging_mixin.py:190} INFO - [2025-11-02T23:43:10.293+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T23:43:10.481+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T23:43:10.487+0000] {logging_mixin.py:190} INFO - [2025-11-02T23:43:10.487+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T23:43:10.494+0000] {logging_mixin.py:190} INFO - [2025-11-02T23:43:10.494+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T23:43:10.498+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.208 seconds
+[2025-11-02T23:50:26.168+0000] {processor.py:186} INFO - Started process (PID=56557) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T23:50:26.169+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T23:50:26.169+0000] {logging_mixin.py:190} INFO - [2025-11-02T23:50:26.169+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T23:50:26.358+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T23:50:26.365+0000] {logging_mixin.py:190} INFO - [2025-11-02T23:50:26.365+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T23:50:26.371+0000] {logging_mixin.py:190} INFO - [2025-11-02T23:50:26.371+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T23:50:26.376+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.211 seconds
+[2025-11-02T23:58:50.409+0000] {processor.py:186} INFO - Started process (PID=56588) to work on /opt/airflow/dags/lab_etl.py
+[2025-11-02T23:58:50.409+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/lab_etl.py for tasks to queue
+[2025-11-02T23:58:50.410+0000] {logging_mixin.py:190} INFO - [2025-11-02T23:58:50.409+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/lab_etl.py
+[2025-11-02T23:58:50.601+0000] {processor.py:925} INFO - DAG(s) 'two_stock_dag' retrieved from /opt/airflow/dags/lab_etl.py
+[2025-11-02T23:58:50.607+0000] {logging_mixin.py:190} INFO - [2025-11-02T23:58:50.607+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-02T23:58:50.613+0000] {logging_mixin.py:190} INFO - [2025-11-02T23:58:50.613+0000] {dag.py:4156} INFO - Setting next_dagrun for two_stock_dag to 2025-11-02 01:30:00+00:00, run_after=2025-11-03 01:30:00+00:00
+[2025-11-02T23:58:50.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/lab_etl.py took 0.211 seconds
